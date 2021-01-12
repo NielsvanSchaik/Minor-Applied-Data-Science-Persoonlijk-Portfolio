@@ -72,18 +72,18 @@ Zoals te zien in trello ben ik ook vaak navigator geweest bij verschillende toev
 ## 7. Load_Data.py
 Load_Data.py is code dat ik heb geschreven om data dat in numpy bestanden opgeslagen waren op de serven in te laden en dit om te zetten in bruikbare data voor modellen en andere doel einde zoals plottjes.
 Deze code was makkelijk te importeren en begrijpen en heeft ons als groep tijd bespaard omdat we makkelijk specifieke huizen en tabbelen konden inladen zonder opzoek te gaan naar complexe code en het op die manier in te laden.
-Ik heb comments gezet in het bestand met uitleg erin over de functies die ik heb gebouwd. ![Load_data](Load_data.py)
+Ik heb comments gezet in het bestand met uitleg erin over de functies die ik heb gebouwd. ![Load_data](Load_data.py) 
 
 ## 8. Peak detection code
 Tijdens het maken van de LSTM wouden we proberen of een feature dat aangaf of de data een piek was verbeteringing gaf aan het model. Deze taak heb ik op me genomen.
 Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt van het gemiddelde en standaart deviatie binnen een moving window.
 Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
-De notebook met de code: ![Is_peak](Is_peak code.pdf)
-En een bijbehorend plottje ![Is_peak plotje](Is_peak.png)
+De notebook met de code: ![Is_peak](Is_peak code.pdf) 
+En een bijbehorend plottje ![Is_peak plotje](Is_peak.png) 
 
 ## 9. Mean day/week code
 We hadden een feature toe gevoegd dat binnen de window het gemiddelde van de dag en van de week aangaf
-Dit is de code dat daar uit kwam: ![dag en week gemiddelde](day-week-Mean.py)
+Dit is de code dat daar uit kwam: ![dag en week gemiddelde](day-week-Mean.py) 
 
 ## 10. Toevoeging Paper
 Ondanks dat het nog niet is afgerond tijdens het schrijven van mijn portfolio zijn dit mijn toevoegingen aan de paper.
