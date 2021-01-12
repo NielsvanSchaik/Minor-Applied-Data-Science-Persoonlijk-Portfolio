@@ -20,4 +20,3 @@ df['day_mean'] = day_temp_df.mean(axis=1, skipna=True)
 df['week_mean'] = temp_df.mean(axis=1, skipna=True)
 
 df = df.fillna(0)
-df.tail(3)
