@@ -78,7 +78,7 @@ Ik heb comments gezet in het bestand met uitleg erin over de functies die ik heb
 Tijdens het maken van de LSTM wouden we proberen of een feature dat aangaf of de data een piek was verbeteringing gaf aan het model. Deze taak heb ik op me genomen.
 Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt van het gemiddelde en standaart deviatie binnen een moving window.
 Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
-De notebook met de code: ![Is_peak](Is_peak code.pdf) 
+De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
 En een bijbehorend plottje ![Is_peak plotje](Is_peak.png) 
 
 ## 9. Mean day/week code
