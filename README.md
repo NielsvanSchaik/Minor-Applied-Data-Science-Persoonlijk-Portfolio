@@ -29,4 +29,4 @@ Datacamp Courses ![Minor_DataCamp_Courses](Minor_DataCamp_Courses.png)
 Het doel van dit onderzoek is om voor factory zero uit te zoeken welke prediction models het beste werken om energy verbruik en opbrengst een uur vooruit te voorspellen.
 Voor ons waren er ook projecten geweest deze zijn te vinden in de reports in de repository:
 
-![Report_Jan](Factory_Zero_January_2020_Report.pdf) ![Report_Juni](Factory_Zero_June_2020_Report.pdf)
+![Report_Jan](Factory_Zero_January_2020_Report.pdf)        ![Report_Juni](Factory_Zero_June_2020_Report.pdf)
