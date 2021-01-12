@@ -45,10 +45,15 @@ Alleen week 16 word nog geupdate op he moment dat ik dit schrijf.
 ## 4. Procentuele toevoeging van het team
 Ik heb mijn collegas onder verdeeld in delen dat zij hebben geleverd aan dit project in %
 Niels van Drunen (18062814): 24%
+
 Levi Duivenvoorden (18005152): 24%
+
 Jefry el Bhwash (16095065): 24%
+
 Niels van Schaik (18150845) :23%
+
 Amin Mansouri (18097367): 5%
+
 
 Voor uitleg zie volgend hoofdstuk
 
@@ -79,6 +84,7 @@ Tijdens het maken van de LSTM wouden we proberen of een feature dat aangaf of de
 Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt van het gemiddelde en standaart deviatie binnen een moving window.
 Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
 De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
+
 En een bijbehorend plottje ![Is_peak plotje](Is_peak.png) 
 
 ## 9. Mean day/week code
