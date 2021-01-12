@@ -22,6 +22,7 @@ door Niels van Schaik 18150845
 4) Code om het gemiddelde dag en week verbruik te berekenen in een moving window.
 5) Ik was backup scrum master en omdat ik al ervaring had met scrum zorgde ik voor hulp tijdens de meetings en feedback voor de huidige scrum master, Jefry el Bhwash 16095065
 6) Heb deel genomen aan verschillende modellen als driver en navigator rol.
+7) Verschillende presentaties gehouden.
 
 ### Datacamp
 Datacamp Courses ![Minor_DataCamp_Courses](Minor_DataCamp_Courses.png)
