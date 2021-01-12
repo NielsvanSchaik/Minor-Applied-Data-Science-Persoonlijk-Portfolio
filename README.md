@@ -1,8 +1,8 @@
-#Persoonlijk portfolio
+# Persoonlijk portfolio
 Minor Applied data science
 door Niels van Schaik 18150845
 
-#Index
+## Index
 1) Globale toevoeging
 2) Introductie project
 3) Mijn rol in het project
