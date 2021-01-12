@@ -85,7 +85,8 @@ Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt va
 Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
 De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
 
-En een bijbehorend plottje ![Is_peak plotje](Is_peak.png) 
+En een bijbehorend plottje:
+![Is_peak plotje](Is_peak.png) 
 
 ## 9. Mean day/week code
 We hadden een feature toe gevoegd dat binnen de window het gemiddelde van de dag en van de week aangaf
