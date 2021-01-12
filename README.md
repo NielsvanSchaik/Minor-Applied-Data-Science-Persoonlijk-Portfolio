@@ -86,6 +86,7 @@ Deze formule gaf de treshold aan en als de energy daar over heen ging was het ee
 De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
 
 En een bijbehorend plottje:
+
 ![Is_peak plotje](Is_peak.png) 
 
 ## 9. Mean day/week code
