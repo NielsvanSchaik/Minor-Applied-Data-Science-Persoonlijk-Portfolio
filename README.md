@@ -61,6 +61,7 @@ Met de kennis die we hebben vergaard van de literatuur en de reports van Factory
 2) SVR (Support Vector Regression)
 3) LSTM (Long Short-Term Memory)
 4) MLP (Multi-Layer Perceptron)
+
 De resultaten van deze modellen zijn te vinden op pagina 7 va onze ![paper](Paper_v04.docx) die we hebben ingeleverd.
 
 De conlusie die we uit de resultaten hebben kunnen halen is dat LSTM de beste voorspellingen maakte binnen onze use case voor energy opbrengst en gebruik.
