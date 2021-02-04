@@ -36,6 +36,7 @@ Voor ons waren er ook projecten geweest deze zijn te vinden in de reports in de 
 
 ![Report_Jan](Factory_Zero_January_2020_Report.pdf) and ![Report_Juni](Factory_Zero_June_2020_Report.pdf)
 De belangrijkste informatie die we hieruit hebben gehaald is de formule voor het berekenen van het energy verbruik van een van de huizen van Factory Zero.
+
 Energy Consumption = Smart_in + Solar_out − Smart_out
 Smart_in: Energie dat het huis binnen komt vanaf het energie netwerk
 Solar_out: Energie dat is opgewekt door de zonnepanelen van het huis.
