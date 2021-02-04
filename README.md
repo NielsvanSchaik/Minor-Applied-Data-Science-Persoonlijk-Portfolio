@@ -91,6 +91,8 @@ In de data zaten vaak gaten die zelfs konde oplopen tot uren of dagen.
 Hierbij is er dan of geen data of word de laatste meeting opnieuw meegegeven.
 Dit heeft ons geforseerd om de beste huizen te zoeken, dit is ons gelukt door de heatmap hierboven.
 
+Voor meer informatie en detail van de data cleaning/preperation verweis ik u door naar pagina 2 en 3 van de ![paper](Paper_v04.docx) .
+
 ## 3. Scrum
 Onze scrum master was Jefry el Bhwash 16095065 en ik was de backup scrum master als Jefry afwezig was
 We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan heb gewerkt. ![Trello kaartjes](Trello kaartjes.zip)
