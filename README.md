@@ -78,6 +78,7 @@ Hiervoor hebben we verschillende visualisaties gemaakt zoals deze heat map die N
 Hier is ook een overzicht van het energy opbrengst en gebruik per huis van het hele jaar (hij is redelijk groot):
 ![energy_van_een_jaar](EnergyUse&Prod_OneYear_AllHouses.png)
 of mijn visualisatie van de pieken in hoofdstuk Peak detection code.
+
 Ook heeft onze problem owner (Mnr. Rahola) ons begelijd in de eerste paar weken door ons visualisaties te maken van veel delen van de data die ons gegeven is.
 Een goed voorbeeld hiervan was het visualiseren van de energie verbruik van de huizen om te kijken of ze ook echt NZEB waren.
 Tijdens het verkennen van de data zijn we verschillende problemen tegen gekomen.
