@@ -47,7 +47,7 @@ Om te voorkomen dat de NZEB (Net Zero Emmision Buildings) een energy rekening kr
 De eerste stap om dit te berijken was om een voorspelings model te maken voor energy opbrengst en gebruik. Deze taak is aan Team Zero gegeven.
 Om dit te berijken zijn we een onderzoek gestart dat bepaald welk machine learning model het beste was om te gebruiken voor dit doel einde.
 
-Voor dit onderzoek hebben we een ![Literatuur_Onderzoek](A. literaturePapersWeek5.xlsx) gedaan en een ![Onderzoeksplan](Onderzoeksplan ND.pdf) opgesteld.
+Voor dit onderzoek hebben we een ![Literatuur_Onderzoek](literaturePapersWeek5.xlsx) gedaan en een ![Onderzoeksplan](Onderzoeksplan.pdf) opgesteld.
 (voor meer informatie over de planning van dit onderzoek wil ik u verweizen naar het onderzoeks plan)
 Dit is de lijst aan artiekelen die we uit dit onderzoek hebben gehaald:
 1) Predicting energy consumption: A multiple decomposition-ensemble approach
