@@ -4,16 +4,17 @@ door Niels van Schaik 18150845
 
 ## Index
 1) Globale toevoeging
-2) Korte introductie project
+2) Het Project
 3) Scrum
-4) Procentuele toeviging team
-5) Team communicatie
+4) Leerdoelen
+5) Feedback
 6) Modellen en mijn toevoeging
 7) Load_Data.py
 8) Peak detection code
 9) Mean day/week code
 10) Toevoeging Paper
-11) Afsluiting
+11) Presentaties
+12) Afsluiting
 
 ## 1. Globale toevoeging
 1) Verschijdene Trello kaartje opgenomen en afgerond.
@@ -27,15 +28,66 @@ door Niels van Schaik 18150845
 ### Datacamp
 Datacamp Courses ![Minor_DataCamp_Courses](Minor_DataCamp_Courses.png)
 
-## 2. Korte introductie Project
-Het doel van dit onderzoek is om voor factory zero uit te zoeken welke prediction models het beste werken om energy verbruik en opbrengst een dag vooruit te voorspellen
-met een resolutie van een uur.
+## 2. Het Project
+Ons onderzoeks vraag luide als volgt: What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) hourly resolution?
+
+Dit houd in dat we op zoek zijn gegaan naar een machine learning model dat het beste energy opbrengst en verbruik 24 uur kan voorspellen voor specifieke "nul op de meter huizen" met een rezolutie van een uur. 
 Voor ons waren er ook projecten geweest deze zijn te vinden in de reports in de repository:
 
 ![Report_Jan](Factory_Zero_January_2020_Report.pdf) and ![Report_Juni](Factory_Zero_June_2020_Report.pdf)
+De belangrijkste informatie die we hieruit hebben gehaald is de formule voor het berekenen van het energy verbruik van een van de huizen van Factory Zero.
+Energy Consumption = Smart_in + Solar_out − Smart_out
+Smart_in: Energie dat het huis binnen komt vanaf het energie netwerk
+Solar_out: Energie dat is opgewekt door de zonnepanelen van het huis.
+Smart_out: Energie dat is verkocht aan het energie netwerk.
 
-onze onderzoeks vraag was:
-*What is a suitable machine learning model to predict energy use & production of a “zero at the meter” residential house, one day in advance with (if possible) hourly resolution?*
+Factory zero is opzoek naar een model die energy opbrengst en verbruik kan voorspellen voor hun huizen omdat de manier waarop energy word verkocht naar energy maatschappijen gaat veranderen.
+Een korte samenvatting van de veranderingen die wellicht komen: Als je energy verkoopt op momenten dat het energy netwerk overbelast raakt moet je betalen voor de terrug gevoerde energy in plaats van dat je er geld voor krijgt. Deze prijzen veranderen per uur.
+Om te voorkomen dat de NZEB (Net Zero Emmision Buildings) een energy rekening krijgen door deze veranderingen wilt Factory Zero een model dat voorspelt Wanneer het beste moment is om energy te kopen en verkopen.
+De eerste stap om dit te berijken was om een voorspelings model te maken voor energy opbrengst en gebruik. Deze taak is aan Team Zero gegeven.
+Om dit te berijken zijn we een onderzoek gestart dat bepaald welk machine learning model het beste was om te gebruiken voor dit doel einde.
+
+Voor dit onderzoek hebben we een ![Literatuur_Onderzoek](A. literaturePapersWeek5.xlsx) gedaan en een ![Onderzoeksplan](Onderzoeksplan ND.pdf) opgesteld.
+(voor meer informatie over de planning van dit onderzoek wil ik u verweizen naar het onderzoeks plan)
+Dit is de lijst aan artiekelen die we uit dit onderzoek hebben gehaald:
+1) Predicting energy consumption: A multiple decomposition-ensemble approach
+2) Forecasting Energy Consumption of a House using Radial Basis Function Network
+3) Predicting Energy Consumption of a House using Neural Network
+4) A granular deep learning approach for predicting energy consumption
+5) Machine Learning-Based Approach to Predict Energy Consumption of Renewable and Nonrenewable Power Sources
+
+Met de kennis die we hebben vergaard van de literatuur en de reports van Factory Zero hebben we de volgende modellen geimplementeerd:
+1) MVLR (Multi Variate Linear Regression)
+2) SVR (Support Vector Regression)
+3) LSTM (Long Short-Term Memory)
+4) MLP (Multi-Layer Perceptron)
+De resultaten van deze modellen zijn te vinden op pagina 7 va onze ![paper](Paper_v04.docx) die we hebben ingeleverd.
+
+De conlusie die we uit de resultaten hebben kunnen halen is dat LSTM de beste voorspellingen maakte binnen onze use case voor energy opbrengst en gebruik.
+Echter kan er meer geëxperimenteerd worden om een beter resultaat te kunnen behalen.
+Zoals 2 simpele modelen maken, 1 om de pieken te voor spellen en 1 om de energy te voorspellen zonder de pieken, en dan deze 2 modelen samen te voegen om een beter model te maken.
+
+Om op deze conclusie te komen hebben we de data gebruikt die Factory Zero ons heeft gegeven.
+Deze data bestond uit 120 excel sheets, een voor elk huis, met daarin verschillende tabellen voor de verschillende sensoren.
+Deze data bestond uit een timestamp in seconden en daar aan vast de data die de sensor gemeten had.
+De huizen zelf stonden in een wijk in Zoetermeer en de data ging van jan 2019 t/m dec 2019.
+We hebben deze data door gespit voor bruikbare data dat we konden gebruiken voor het onderzoek.
+Hiervoor hebben we verschillende visualisaties gemaakt zoals deze heat map die Niels van Drunen heeft gemaakt:
+![Heatmap](Heatmap_production.png) 
+Hier is ook een overzicht van het energy opbrengst en gebruik per huis van het hele jaar (hij is redelijk groot):
+![energy_van_een_jaar](EnergyUse&Prod_OneYear_AllHouses.png)
+of mijn visualisatie van de pieken in hoofdstuk Peak detection code.
+Ook heeft onze problem owner (Mnr. Rahola) ons begelijd in de eerste paar weken door ons visualisaties te maken van veel delen van de data die ons gegeven is.
+Een goed voorbeeld hiervan was het visualiseren van de energie verbruik van de huizen om te kijken of ze ook echt NZEB waren.
+Tijdens het verkennen van de data zijn we verschillende problemen tegen gekomen.
+
+De Timestamps waren niet altijd 5 minuten uit elkaar en weken per sensor soms af.
+Deze time stamps zouden allemaal gelijk moeten zijn om te voorkomen dat we de verkerde data punten bij elkaar zetten van verschillende sensors.
+Hier zijn we niet 100% omheen gekomen maar we hebben het minder relevant gemaakt door het te resampelen en huizen te gebruiken waar dit het minst voorkomen.
+
+In de data zaten vaak gaten die zelfs konde oplopen tot uren of dagen.
+Hierbij is er dan of geen data of word de laatste meeting opnieuw meegegeven.
+Dit heeft ons geforseerd om de beste huizen te zoeken, dit is ons gelukt door de heatmap hierboven.
 
 ## 3. Scrum
 Onze scrum master was Jefry el Bhwash 16095065 en ik was de backup scrum master als Jefry afwezig was
