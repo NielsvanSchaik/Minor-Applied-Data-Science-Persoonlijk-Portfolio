@@ -39,9 +39,9 @@ De belangrijkste informatie die we hieruit hebben gehaald is de formule voor het
 
 Energy Consumption = Smart_in + Solar_out − Smart_out
 
-Smart_in: Energie dat het huis binnen komt vanaf het energie netwerk
-Solar_out: Energie dat is opgewekt door de zonnepanelen van het huis.
-Smart_out: Energie dat is verkocht aan het energie netwerk.
+1) Smart_in: Energie dat het huis binnen komt vanaf het energie netwerk
+2) Solar_out: Energie dat is opgewekt door de zonnepanelen van het huis.
+3) Smart_out: Energie dat is verkocht aan het energie netwerk.
 
 Factory zero is opzoek naar een model die energy opbrengst en verbruik kan voorspellen voor hun huizen omdat de manier waarop energy word verkocht naar energy maatschappijen gaat veranderen.
 Een korte samenvatting van de veranderingen die wellicht komen: Als je energy verkoopt op momenten dat het energy netwerk overbelast raakt moet je betalen voor de terrug gevoerde energy in plaats van dat je er geld voor krijgt. Deze prijzen veranderen per uur.
