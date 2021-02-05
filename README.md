@@ -196,9 +196,9 @@ Als ik dit project opnieuw zou doen zal ik nogsteeds proberen om mijn kennis ove
 
 ## 11. Presentaties
 Ook tijdens dit project heb ik verschillende presentaties online gepresenteerd:
-1) Weekelijkse presentatie week 3:  ![presentatie_Week3](Presentatie week 3.pptx) 
-2) Weekelijkse presentatie week 8:  ![presentatie_Week8](Presentatie Week 8.pptx) 
-3) Weekelijkse presentatie week 14: ![presentatie_Week14](Presentatie Week 14.pptx) 
+1) Weekelijkse presentatie week 3:  ![presentatie_Week3](PresentatieWeek3.pptx) 
+2) Weekelijkse presentatie week 8:  ![presentatie_Week8](PresentatieWeek8.pptx) 
+3) Weekelijkse presentatie week 14: ![presentatie_Week14](PresentatieWeek14.pptx) 
 
 ## 12. Afsluiting
 Persoonlijk vond ik dit een heel interesant onderzoek. Ik had voor deze minor veel intresse in wat AI kon doen en had veel plezier in het maken van deze modellen.
