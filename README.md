@@ -97,7 +97,7 @@ Voor meer informatie en detail van de data cleaning/preperation verweis ik u doo
 
 ## 3. Scrum
 Onze scrum master was Jefry el Bhwash 16095065 en ik was de backup scrum master als Jefry afwezig was
-We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan heb gewerkt. ![Trello kaartjes](Trello kaartjes.zip) 
+We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan heb gewerkt. ![Trello kaartjes](TrelloKaartjes.zip) 
 Deze screenshots waren genomen voor de deadline van de paper voor het actuele trello bord is hier een link: https://trello.com/b/kDceuyG7
 Alleen week 16 word nog geupdate op he moment dat ik dit schrijf.
 
@@ -118,7 +118,7 @@ Dit is de lijst aan features waar ik aan heb gewerkt of aan heb geholpen:
 Mijn andere bijdragen bestaan vooral uit navigator rol zijn voor verschillende onderdelen van mijn project genoten.
 Dit heb ik gedaan zodat ik mijn kennis over programmeren kon versprijden over het team ipv alles zelf doen.
 In mijn mening heeft dit voor een soepeler proces gezorgd tijdens het maken van de modellen en generale fouten verbeteren in de code die werd geschreven.
-Deze bijdragen zijn te zien in de trello kaartjes. ![Trello kaartjes](Trello kaartjes.zip) 
+Deze bijdragen zijn te zien in de trello kaartjes. ![Trello kaartjes](TrelloKaartjes.zip) 
 
 ## 6. Load_Data.py
 Load_Data.py is code dat ik heb geschreven om data dat in numpy bestanden opgeslagen waren op de serven in te laden en dit om te zetten in bruikbare data voor modellen en andere doel einde zoals plottjes.
