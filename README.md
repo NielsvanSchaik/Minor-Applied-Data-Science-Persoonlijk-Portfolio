@@ -7,12 +7,12 @@ door Niels van Schaik 18150845
 2) Het Project
 3) Scrum
 4) Leerdoelen
-5) Feedback
-6) Modellen en mijn toevoeging
-7) Load_Data.py
-8) Peak detection code
-9) Mean day/week code
-10) Toevoeging Paper
+5) Modellen en mijn toevoeging
+6) Load_Data.py
+7) Peak detection code
+8) Mean day/week code
+9) Toevoeging Paper
+10) Feedback
 11) Presentaties
 12) Afsluiting
 
@@ -25,7 +25,7 @@ door Niels van Schaik 18150845
 6) Heb deel genomen aan verschillende modellen als driver en navigator rol.
 7) Verschillende presentaties gehouden.
 
-### Datacamp
+### 1.1 Datacamp
 Datacamp Courses ![Minor_DataCamp_Courses](Minor_DataCamp_Courses.png)
 
 ## 2. Het Project
@@ -101,8 +101,58 @@ We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan he
 Deze screenshots waren genomen voor de deadline van de paper voor het actuele trello bord is hier een link: https://trello.com/b/kDceuyG7
 Alleen week 16 word nog geupdate op he moment dat ik dit schrijf.
 
-## 4. Procentuele toevoeging van het team
+## 4. Leerdoelen
+Voor dit project heb ik een aantal leerdoelen voor mezelf opgezet:
+1) Door te leren over applied data science wil ik mijn SE (Software Engeneer) kennis vergroten voor een breeder portfolio. Ik wil daarom leren wat machine learning modellen zijn, waar ze voor gebruikt kunnen worden en hoe ze werken.
+2) Ervaring in scrum is erg belangrijk voor een SE. Daarom wil ik dit project het scrum bord strak bijhouden.
+3) Proffecioneel omgaan met de project/problem owner is een belangrijke skill voor een SE. Dit wil dit project verbeteren.
+
+## 5. Modellen en mijn toevoegingen
+Ik heb gewerkt aan verschillende modellen als navigator of ik heb onderdelen van de feature set gemaakt of bij gedragen als navigator voor deze features.
+Het model waar ik aan gewerkt heb is een verbetering van de LSTM in week 14. ![LSTM](W14_LSTM_Improvements.pdf) 
+Dit is de lijst aan features waar ik aan heb gewerkt of aan heb geholpen:
+1) Is_peak ![Is_peak](Is_peak_code.pdf) (zie hoofdstuk 7)
+2) Mean day/week ![dag en week gemiddelde](day-week-Mean.py) (zie hoofdstuk 8)
+3) geschaalde collomen voor energy productie en gebruik
+
+Mijn andere bijdragen bestaan vooral uit navigator rol zijn voor verschillende onderdelen van mijn project genoten.
+Dit heb ik gedaan zodat ik mijn kennis over programmeren kon versprijden over het team ipv alles zelf doen.
+In mijn mening heeft dit voor een soepeler proces gezorgd tijdens het maken van de modellen en generale fouten verbeteren in de code die werd geschreven.
+Deze bijdragen zijn te zien in de trello kaartjes. ![Trello kaartjes](Trello kaartjes.zip) 
+
+## 6. Load_Data.py
+Load_Data.py is code dat ik heb geschreven om data dat in numpy bestanden opgeslagen waren op de serven in te laden en dit om te zetten in bruikbare data voor modellen en andere doel einde zoals plottjes.
+Deze code was makkelijk te importeren en begrijpen en heeft ons als groep tijd bespaard omdat we makkelijk specifieke huizen en tabbelen konden inladen zonder opzoek te gaan naar complexe code en het op die manier in te laden.
+Ik heb comments gezet in het bestand met uitleg erin over de functies die ik heb gebouwd. ![Load_data](Load_data.py) 
+
+## 7. Peak detection code
+Tijdens het maken van de LSTM wouden we proberen of een feature dat aangaf of de data een piek was verbeteringing gaf aan het model. Deze taak heb ik op me genomen.
+Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt van het gemiddelde en standaart deviatie binnen een moving window.
+Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
+Na een lange tijd spelen met de formulen ben ik tevreden met het resultaat die het levert en hebben we het geimplementeerd in de feature set.
+De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
+
+En een bijbehorend plottje:
+
+![Is_peak plotje](Is_peak.png) 
+
+## 8. Mean day/week code
+Er was een feature nodig dat binnen de window het gemiddelde van de dag en van de week kon berekenen en dit terrug gaf aan het model.
+Omdat dit een gemiddelde binnen een window was zorgde dit ervoor dat de eerste week aan data geen accurate gemiddelde berekend kon worden.
+Dit is de code dat daar uit kwam: ![dag en week gemiddelde](day-week-Mean.py) 
+
+## 9. Toevoeging Paper
+Ondanks dat het nog niet is afgerond tijdens het schrijven van mijn portfolio zijn dit mijn toevoegingen aan de paper.
+Hoofdstuk 2.1.2 en 5
+Ook heb ik net zoals de rest van mijn groep het document nagekeken en verbeterd.
+Ik heb ook de taak op me genomen om alle tabellen en grafieken te verbeteren waar nodig en ervoor zorgen dat ze alles hebben dat ze moeten hebben zoals een titel.
+
+## 10. Feedback
+In dit hoofdstuk ga ik feedback geven op mijn team, mijn bijdragen aan dit project en aan de leerdoelen die ik heb opgesteld in hoofdstuk 4.
+
+### 10.1 Team Reflectie
 Ik heb mijn collegas onder verdeeld in delen dat zij hebben geleverd aan dit project in %
+
 Niels van Drunen (18062814): 24%
 
 Levi Duivenvoorden (18005152): 24%
@@ -114,9 +164,6 @@ Niels van Schaik (18150845) :23%
 Amin Mansouri (18097367): 5%
 
 
-Voor uitleg zie volgend hoofdstuk
-
-## 5. Team communicatie
 Ondanks dat ik een week later begon met deze minor werd ik goed ontvangen door iedereen in het team en werd het al snel duidelijk dat het een prettig project zou gaan worden.
 Tussen mij Jefry, Niels en Levi was de communicatie open eerlijk en concreet. Feedback werd seerieus genomen en het was prettig werken tussen ons 4.
 Echter kan ik niet hetzelfde zeggen over Amin, hij was vaak afwezig en als hij aanwezig was zat hij gedempt in de meeting en voegde weinig toe aan het gesprek.
@@ -126,45 +173,36 @@ Hier heb ik persoonlijk weinig verbetering in gezien.
 De rest van de groep hebben hier omheen gewerkt en hebben we met hem de afspraak gemaakt dat als we merken dat het niet af kwam wij de taak over nemen.
 Dit hebben we gedaan zodat we hem de kans konden geven om mee toe doen met het onderzoek en dat hij de kans heeft om dingen te doen zodat hij belangrijke dingen in zijn portfolio kon stoppen zonder dat wij hem in de weg stonden.
 
-## 6. Modellen en mijn toevoegingen
-Levi Duivenvoorden was de persoon die vooral de modellen in elkaar heeft gezet en getraind. Hierbij heb ik vaak als navigator rol gespeeld om hem hierbij te ondersteunen(Zie week 14 trello).
-Echter waren mijn grootste toevoegingen in het verbeteren van de modellen. De classes en binnen werking waren al voor ons gemaakt en levi heeft deze geimplementeerd.
-We hebben vooral gewerkt aan on hot encoden en features toevoegen om het model te verbeteren.
-De 3 grootste toevoegingen aan mij zijn te zien in hoofdstuk 7, 8 en 9.
-Zoals te zien in trello ben ik ook vaak navigator geweest bij verschillende toevoegingen aan de modellen zodat ik mijn achtergrond als software engeneer breed kon sprijden ipv alle taken op me nemen.
+### 10.2 Reflectie leerdoelen
+1.  Kennis over Machine learning verbreden. 7/10
 
-## 7. Load_Data.py
-Load_Data.py is code dat ik heb geschreven om data dat in numpy bestanden opgeslagen waren op de serven in te laden en dit om te zetten in bruikbare data voor modellen en andere doel einde zoals plottjes.
-Deze code was makkelijk te importeren en begrijpen en heeft ons als groep tijd bespaard omdat we makkelijk specifieke huizen en tabbelen konden inladen zonder opzoek te gaan naar complexe code en het op die manier in te laden.
-Ik heb comments gezet in het bestand met uitleg erin over de functies die ik heb gebouwd. ![Load_data](Load_data.py) 
+Dit leerdoel heb ik goed volbracht door middel van de lesstof en mijn bijdrage aan de modellen die we voor ons onderzoek hebben gemaakt.
+Ik heb ervaring op gedaan met de stof en heb persoonlijk gezien wat de moddelen kunnen doen en hoe je ze moet maken.
 
-## 8. Peak detection code
-Tijdens het maken van de LSTM wouden we proberen of een feature dat aangaf of de data een piek was verbeteringing gaf aan het model. Deze taak heb ik op me genomen.
-Om dit voor elkaar te krijgen heb ik een formule geschreven dat gebruik maakt van het gemiddelde en standaart deviatie binnen een moving window.
-Deze formule gaf de treshold aan en als de energy daar over heen ging was het een piek.
-De notebook met de code: ![Is_peak](Is_peak_code.pdf) 
+2. Ervaring met Scrum. 6/10
 
-En een bijbehorend plottje:
+Tijdens dit project hebben we volledig gebruik gemaakt van scrum. Ik heb daarom meer ervaring op gedaan met scrum.
+De reden waarom ik dit alleen een 6 geef is omdat ik zelf niet het scrumbord strak genoeg heb bijgehouden voor dit leerdoel.
 
-![Is_peak plotje](Is_peak.png) 
+3. Proffecionele omgang met de problem/project owner. 5/10
 
-## 9. Mean day/week code
-We hadden een feature toe gevoegd dat binnen de window het gemiddelde van de dag en van de week aangaf
-Dit is de code dat daar uit kwam: ![dag en week gemiddelde](day-week-Mean.py) 
+Dit leerdoel heb ik niet voldoende afgerond. Dit komt omdat ik pas halverwege de minor hier op ben gaan letten. Hierdoor kan ik mezelf geen voldoende geven voor dit leerdoel.
+Ik ga het alleen geen lager cijfer geven omdat ik wel een meeting heb ondernomen om punten uit te leggen aan mijn team zodat we dit wel goed konden doen. Na deze meeting heb ik een verbetering gezien in proffecionaliteit en een effecientere omgang met de tijd die we hadden met onze problem/project owner.
 
-## 10. Toevoeging Paper
-Ondanks dat het nog niet is afgerond tijdens het schrijven van mijn portfolio zijn dit mijn toevoegingen aan de paper.
-Hoofdstuk 2.1.2 en 5
-Ook heb ik net zoals de rest van mijn groep het document nagekeken en verbeterd.
-Ik heb ook de taak op me genomen om alle tabellen en grafieken te verbeteren waar nodig en ervoor zorgen dat ze alles hebben dat ze moeten hebben zoals een titel.
+### 10.3 Reflectie bijdrage
+Zoals te zien in de team reflectie heb ik mijzelf minder procentuele bijdrage geven dan andere collegas. Dit komt omdat ik ondanks ik veel heb geholpen met de code van mijn collegas, ik minder taken persoonlijk op me heb genomen.
+Dit zou ook zijn gebeurt omdat ik bewust ervoor heb gekozen om mijn kennis over proggrammeren te sprijden over het team, echter denk ik ondanks dit feit nogsteeds dat ik meer taken persoonlijk op me had kunnen nemen binnen dit project.
+Als ik dit project opnieuw zou doen zal ik nogsteeds proberen om mijn kennis over het team te sprijden. Maar dit wel met een focus op meer taken zelf op me te nemen.
 
-## 11. Afsluiting
+## 11. Presentaties
+Ook tijdens dit project heb ik verschillende presentaties online gepresenteerd:
+1) Weekelijkse presentatie week 3:  ![presentatie_Week3](Presentatie week 3.pptx) 
+2) Weekelijkse presentatie week 8:  ![presentatie_Week8](Presentatie Week 8.pptx) 
+3) Weekelijkse presentatie week 14: ![presentatie_Week14](Presentatie Week 14.pptx) 
+
+## 12. Afsluiting
 Persoonlijk vond ik dit een heel interesant onderzoek. Ik had voor deze minor veel intresse in wat AI kon doen en had veel plezier in het maken van deze modellen.
 Ook met corona had ik een team gevoel en waren de lessen goed opgezet en makkelijk te volgen.
-Toch zijn er dingen die ik persoonlijk beter zou willen doen.
-Als er meer projecten komen ga ik vaker mijn camera aan zetten om een meer menselijk element toe te voegen en team verband te stimuleren.
-Ik moet een proffescionelere houding aan nemen tijdens meetings met leeraren en problem/ project owners. Tijdens dit project heb ik en ons team te weinig aan gedaan en valt er veel in te verbeteren.
-Ik vind dat ik meer had kunnen doen tijdens dit project met een meer active houding.
 
 Bedankt voor het lezen van mijn portfolio en veel succes met het beoordelen van mijn en toekomstige portfolios.
 Niels van Schaik
