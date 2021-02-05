@@ -97,7 +97,7 @@ Voor meer informatie en detail van de data cleaning/preperation verweis ik u doo
 
 ## 3. Scrum
 Onze scrum master was Jefry el Bhwash 16095065 en ik was de backup scrum master als Jefry afwezig was
-We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan heb gewerkt. ![Trello kaartjes](Trello kaartjes.zip)
+We hebben trello gebruikt als scrum board en dit zijn de kaartjes waar ik aan heb gewerkt. ![Trello kaartjes](Trello kaartjes.zip) 
 Deze screenshots waren genomen voor de deadline van de paper voor het actuele trello bord is hier een link: https://trello.com/b/kDceuyG7
 Alleen week 16 word nog geupdate op he moment dat ik dit schrijf.
 
