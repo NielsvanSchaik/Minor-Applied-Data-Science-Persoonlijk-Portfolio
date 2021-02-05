@@ -110,6 +110,9 @@ Voor dit project heb ik een aantal leerdoelen voor mezelf opgezet:
 ## 5. Modellen en mijn toevoegingen
 Ik heb gewerkt aan verschillende modellen als navigator of ik heb onderdelen van de feature set gemaakt of bij gedragen als navigator voor deze features.
 Het model waar ik aan gewerkt heb is een verbetering van de LSTM in week 14. ![LSTM](W14_LSTM_Improvements.pdf) 
+Nadat de verbeteringen waren afgerond in week 14 is er op dit bestand meer verbeterd in de weken erna. Deze notebook is niet het eindresultaat van dit LSTM.
+Dit is het eind resultaat: ![LSTM](W16_LSTM.pdf) 
+
 Dit is de lijst aan features waar ik aan heb gewerkt of aan heb geholpen:
 1) Is_peak ![Is_peak](Is_peak_code.pdf) (zie hoofdstuk 7)
 2) Mean day/week ![dag en week gemiddelde](day-week-Mean.py) (zie hoofdstuk 8)
